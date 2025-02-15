@@ -1,0 +1,31 @@
+{
+    "company": {
+        "name": "Dern-Support IT",
+        "description": "Dern-Support IT is a trusted provider of IT technical support and computer repair services. We offer on-site support for businesses and drop-off/courier services for individual customers, ensuring fast and reliable solutions for all your IT needs.",
+        "contact": {
+            "phone": "+1-800-123-4567",
+            "another-phone": "+1-008-321-7654",
+            "email": "contact@dernsupportit.com",
+            "address": "123 Tech Street, City, Country",
+            "description": "We value clear communication and are always here to assist you. Whether you need help with computer repairs, software troubleshooting, or hardware upgrades, our team is ready to provide the expertise and service you need to keep your systems running smoothly."
+        }
+    },
+    "services": {
+        "onsite-service": {
+            "name": "On-Site IT Support",
+            "description": "Our technicians provide on-site support for businesses, ensuring minimal downtime and maximum productivity."
+        },
+        "repair-service": {
+            "name": "Computer Repairs",
+            "description": "We offer fast and reliable repair services for both hardware and software issues. Drop off your device at our office or arrange for courier pickup."
+        },
+        "software-service": {
+            "name": "Software Troubleshooting",
+            "description": "From virus removal to operating system updates, we provide comprehensive software solutions to keep your systems secure and efficient."
+        },
+        "data-service": {
+            "name": "Data Recovery",
+            "description": "Lost important files? Our data recovery experts can help retrieve your data from damaged or corrupted devices."
+        }
+    }
+}

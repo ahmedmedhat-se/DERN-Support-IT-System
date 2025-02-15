@@ -1,0 +1,26 @@
+.admin-dashboard {
+    margin: 130px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+.table th,
+.table td {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .admin-dashboard h2 {
+        font-size: 1.5rem;
+    }
+
+    .table th,
+    .table td {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .admin-dashboard .card {
+        padding: 1rem;
+    }
+}

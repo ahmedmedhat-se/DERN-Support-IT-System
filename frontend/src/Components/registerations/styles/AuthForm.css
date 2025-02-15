@@ -1,0 +1,27 @@
+/* Auth Component Styling Starts */
+.auth-container {
+    max-width: 400px;
+    margin: 130px 10px 20px 10px;
+    border-radius: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    border-radius: 0.5rem;
+    font-size: 20px;
+    padding: 5px;
+}
+/* Auth Component Styling Ends */
+
+/* Logout Component Styling Starts */
+.logout-container {
+    max-width: 400px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+/* Logout Component Styling Ends */

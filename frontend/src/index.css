@@ -1,0 +1,211 @@
+/* Global CSS Styles To The Whole Website */
+/* Global CSS Styles Section Starts*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.go-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 1000;
+}
+
+.top-button {
+  background-color: #1a061b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.top-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+/* Global CSS Styles Section Ends*/
+
+/* Navbar Component Style Starts */
+nav,
+.navbar .offcanvas-end {
+  background: rgb(234, 233, 255);
+  background: linear-gradient(90deg, rgba(234, 233, 255, 1) 0%, rgba(234, 228, 228, 1) 35%, rgba(223, 237, 239, 1) 100%);
+}
+
+nav .navbar-brand strong,
+.navbar .offcanvas-end .offcanvas-title {
+  color: #000;
+  font-size: 22px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav .offcanvas-body .navbar-nav .nav-item .nav-link {
+  color: #000;
+  font-size: 16px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav .navbar-toggler {
+  background: rgb(30, 0, 36);
+  border: none;
+  font-size: 22px;
+}
+
+nav .nav-link {
+  margin-right: 15px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  color: #000;
+  font-family: 'Orbitron', sans-serif;
+}
+
+nav .nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #1a061b;
+  transition: width 0.3s ease-in-out;
+}
+
+nav .nav-link:hover::before {
+  width: 100%;
+}
+
+nav .nav-link:hover {
+  color: #420d43;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+/* Navbar Component Style Ends */
+
+/* Homepage Component Style Starts */
+.homepage {
+  animation: fadeIn 1s ease-in-out;
+}
+/* Homepage Component Style Ends */
+
+/* Services Component Styling Starts */
+.services {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+.services .card {
+  transition: 0.5s ease-in;
+}
+
+.services .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0);
+}
+/* Services Component Styling Ends */
+
+/* Installations Component Styling Starts */
+.installations .card {
+  transition: 0.5s ease-in;
+}
+
+.installations .card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0);
+}
+/* Installations Component Styling Ends */
+
+/* AboutUs Component Styling Starts */
+.about-container {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+/* AboutUs Component Styling Ends */
+
+/* Footer Component Style Starts */
+footer {
+  background: rgb(234, 233, 255);
+  background: linear-gradient(90deg, rgba(234, 233, 255, 1) 0%, rgba(234, 228, 228, 1) 35%, rgba(223, 237, 239, 1) 100%);
+}
+
+footer section,
+footer .copyrights {
+  color: black;
+}
+/* Footer Component Style Ends */
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Still Developing */
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-link {
+    margin-right: 10px;
+    font-size: 0.85rem;
+  }
+
+  /* Still Developing */
+
+  footer {
+    margin: 0;
+  }
+}
+
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 1200px) {
+  nav .nav-link {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* Still Developing */
+}
+
+@media screen and (max-width: 768px) {
+  nav .nav-link {
+    margin-right: 10px;
+    font-size: 0.85rem;
+  }
+
+  /* Still Developing */
+
+  footer {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* Still Developing */
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

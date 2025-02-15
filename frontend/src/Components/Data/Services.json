@@ -1,0 +1,22 @@
+[
+    {
+        "title": "On-Site IT Support",
+        "description": "Our technicians provide on-site support for businesses, ensuring minimal downtime and maximum productivity.",
+        "imageUrl": "https://images.unsplash.com/photo-1551434678-e076c223a692?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dGVjaCUyMHN1cHBvcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "title": "Computer Repairs",
+        "description": "We offer fast and reliable repair services for both hardware and software issues. Drop off your device at our office or arrange for courier pickup.",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661765169155-a1861f0efb57?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVjaCUyMHN1cHBvcnR8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "title": "Software Troubleshooting",
+        "description": "From virus removal to operating system updates, we provide comprehensive software solutions to keep your systems secure and efficient.",
+        "imageUrl": "https://c4.wallpaperflare.com/wallpaper/447/85/162/computer-lights-glow-blur-wallpaper-preview.jpg"
+    },
+    {
+        "title": "Data Recovery",
+        "description": "Lost important files? Our data recovery experts can help retrieve your data from damaged or corrupted devices.",
+        "imageUrl": "https://media.licdn.com/dms/image/v2/C5612AQGs17nRnbH7VQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1598336384122?e=2147483647&v=beta&t=WgLmWyEm6HRgKYLXRAxYe53iVN-uV2vWTf1R9BRimIM"
+    }
+]

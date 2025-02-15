@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Free",
+        "description": "Basic support for individual customers.",
+        "features": [
+            "Drop-off service at our office",
+            "Diagnostics and basic troubleshooting",
+            "Email support"
+        ],
+        "price": "$0"
+    },
+    {
+        "title": "Standard",
+        "description": "Enhanced support for small businesses.",
+        "features": [
+            "On-site support (within city limits)",
+            "Hardware and software repairs",
+            "Priority email and phone support"
+        ],
+        "price": "$49/month"
+    },
+    {
+        "title": "Premium",
+        "description": "Comprehensive support for large businesses.",
+        "features": [
+            "24/7 on-site support",
+            "Advanced data recovery services",
+            "Dedicated account manager",
+            "Custom IT solutions"
+        ],
+        "price": "$99/month"
+    }
+]
